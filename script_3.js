@@ -735,7 +735,6 @@ function isFirstImpression(adId) {
   var fp = (ad_utils === null || ad_utils === void 0 ? void 0 : ad_utils.fp) || null;
 
   if (fp && (fp === null || fp === void 0 ? void 0 : fp.should_autoplay(ad_id))) {
-    fp.log_autoplay(ad_id);
     return true;
   }
 
