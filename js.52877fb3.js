@@ -668,9 +668,7 @@ function isFirstImpression(adId) {
 
   if (fp && (fp === null || fp === void 0 ? void 0 : fp.should_autoplay(ad_id))) {
     return true;
-  }
-
-  {
+  } else {
     return false;
   }
 }
